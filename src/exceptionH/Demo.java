@@ -4,23 +4,22 @@ class A {
 	public void show() {
 		try {
 			Class.forName("Demo");
-		}catch(ClassNotFoundException e) {
+		} catch (ClassNotFoundException e) {
 			System.out.println("Not able to find class");
 		}
-		
+
 	}
 }
 
 public class Demo {
 
-	static
-	{
+	static {
 		System.out.println("Class Loder");
 	}
-	
-	public static void main(String args []) {
-	
-		A obj=new A();
+
+	public static void main(String args[]) {
+
+		A obj = new A();
 		obj.show();
-}
+	}
 }
