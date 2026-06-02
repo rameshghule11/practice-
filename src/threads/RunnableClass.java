@@ -7,7 +7,7 @@ package threads;
 
 class O implements Runnable{
 	public void run() {
-		System.out.println("hi");
+		System.out.println("Runnable ");
 	}
 }
 public class RunnableClass {
